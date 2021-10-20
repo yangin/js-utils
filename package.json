@@ -1,0 +1,23 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "a utils library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangin/js-utils.git"
+  },
+  "author": "yangjin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangin/js-utils/issues"
+  },
+  "homepage": "https://github.com/yangin/js-utils#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
+}
