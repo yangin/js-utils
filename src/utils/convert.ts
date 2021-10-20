@@ -20,3 +20,10 @@ const camelizePlainObject = (obj) => {
     })
     , {})
 }
+
+/**
+ * 转义str中的正则敏感字符
+ */
+export function escapeRegex(str: string): string {
+  return str.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')
+}
