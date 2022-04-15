@@ -9,7 +9,8 @@ function checkTime(i: number): string {
 }
 
 /**
- * 当天剩余时间 如10:23:14
+ * 当天剩余时间 
+ * 格式：10:23:14
  */
 export function restTimerToday(): string {
   // 当天剩余毫秒
